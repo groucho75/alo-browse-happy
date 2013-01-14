@@ -1,0 +1,56 @@
+/*
+
+Browse Happy Around The Blog
+
+Tip : copy this file to your theme directory and edit it there. Useful to prevent the loss of styles when you upgrade the plugin.
+
+*/
+
+
+/* Browser Nag */
+#browser-happy-frontend a.update-browser-link {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#browser-happy-frontend a {
+	text-decoration: underline;
+}
+
+#browser-happy-frontend p.browser-update-nag.has-browser-icon {
+	padding-right: 125px;
+	margin-top: 2em;
+}
+
+#browser-happy-frontend .browser-icon {
+	
+}
+
+#browser-happy-frontend.browser-insecure {
+	color: #f00;
+}
+
+#browser-happy-frontend a {
+	color: #4297D7;
+}
+
+
+#browser-happy-frontend.browser-insecure a.browse-happy-link,
+#browser-happy-frontend.browser-insecure a.update-browser-link {
+	/* text-shadow: #871b15 0 1px 0; */
+}
+
+#browser-happy-frontend a.browse-happy-link,
+#browser-happy-frontend a.update-browser-link {
+	/* text-shadow: #d29a04 0 1px 0; */
+}
+
+#browser-happy-frontend p {
+	line-height: 2em;
+}
+
+#browser-happy-frontend a.dismiss {
+	display: inline-block;
+	margin-top: 1.5em;
+	color: #aaa;
+}
