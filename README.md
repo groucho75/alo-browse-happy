@@ -1,7 +1,7 @@
 alo-browse-happy
 ================
 
-This WordPress plugin checks the browser and, if necessary, opens a modal giving a warning that the browser is obsolete and insecure.
+This WordPress plugin checks the browser and, if necessary, opens a modal giving a warning that the browser is obsolete and insecure (e.g. old IE).
 Inside the modal there is a link to [Browse Happy](http://browsehappy.com/).
 The plugin uses a cookie to show the modal once per session.
 It uses the WP core functions used for browser check in admin panel. It requires WP 3.2+.
