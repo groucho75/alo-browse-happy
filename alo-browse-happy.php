@@ -83,7 +83,7 @@ function alo_bh_banner() {
 	if ( !function_exists('wp_dashboard_browser_nag') ) require_once( ABSPATH . '/wp-admin/includes' .'/dashboard.php' );
 
 	$response = wp_check_browser_version();
-	if ( $response && empty($response['insecure'] ) ) return; // show only if insecure
+	if ( $response && empty($response['insecure'] ) ) return; // You can let modal open when browser is also to update commenting this line
 
 	if ( !empty($response['insecure'] ) )
 	{
