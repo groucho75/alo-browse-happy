@@ -14,4 +14,4 @@ It uses the WP core functions used for browser check in admin panel. It requires
 
 ## Note
 * You can select your preferred JqueryUi theme customizing the line: `wp_enqueue_style('jquery-ui-theeme', ... )`
-* You can let modal open when browser is also to update commenting the line: `if ( $response && empty($response['insecure'] ) ) return;`
+* You can let modal open also when browser has to be updated commenting the line: `if ( $response && empty($response['insecure'] ) ) return;`
